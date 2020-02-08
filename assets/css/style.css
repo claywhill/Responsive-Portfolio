@@ -181,3 +181,37 @@ footer {background-color: #666666;
         left: 0;
         bottom: 0;
 }
+
+@media screen and (max-width: 980px) {
+    .header{width: 100%;}
+    .about{width: 100%;}
+    .portfolio{width: 100%;}
+    .contact{width: 100%;}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .header{width: 100%;}
+    .about{width: 100%;}
+    .portfolio{width: 100%;}
+    .contact{width: 100%;}
+}
+
+
+
+@media screen and (max-width: 640px) {
+    header{position: static;}
+    h1{width: 100%;
+       display: block;}
+    nav{display: block;
+        float: left;
+        width: 100%;
+        background-color:#ffffff;}
+    .header{width: 100%;}
+    .about{width: 100%;}
+    .mainimage{float: none;
+               align-content: center;}
+    .portfolio{width: 100%;}
+    .contact{width: 100%;}
+}
